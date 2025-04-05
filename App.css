@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+input, button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
